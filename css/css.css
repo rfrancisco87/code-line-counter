@@ -1,0 +1,102 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+hr {
+    border: 1px solid #d4d4d4;
+}
+h1 {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+h2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.subtitle {
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.btn_submit { 
+    background: #7AB45F;
+    color: #fff;
+    font-size: 12px;
+    width: 50px;
+    border: 0;
+    padding: 3px 5px;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+    -webkit-border-radius: 3px 3px;
+    -moz-border-radius: 3px 3px; 
+    -o-border-radius: 3px 3px;
+}
+.btn_submit:hover{ 
+    border: 0;
+}
+.btn_submit:active{ 
+    border: 0;
+}
+#wrap {
+    width: 900px;
+    color: #333;
+    border: 1px solid #d4d4d4;
+    padding: 20px;
+    min-height: 400px;
+    margin: 20px auto;
+    -webkit-border-radius: 3px 3px;
+    -moz-border-radius: 3px 3px; 
+    -o-border-radius: 3px 3px;
+}
+#dir_bar {
+    width: 542px;
+    height: 30px;
+    margin: 0 auto;
+}
+.folder {
+    font-family: arial;
+    font-size:  12px;
+    font-weight: bold;
+}
+.folder img {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 5px 0 0;
+}
+.file {
+    font-family: arial;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 0 5px;
+    margin: 5px 0 5px 20px;
+}
+.file img {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: -1px 1px 0 0;
+}
+#result {
+    width: 890px;
+    margin: 0 auto;
+    text-align: center;
+}
+#result img {
+    margin: 0 3px -3px 25px ;
+}

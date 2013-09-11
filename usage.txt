@@ -1,0 +1,24 @@
+To use you have to initiate Folder with the directory to scan along with the Options.
+Configure Options to suit your need:
+
+$options = array(
+    'ignoreFolders' => //An array of folders to ignore,
+    'ignoreFiles' => //An array of files to ignore(including extension),
+    'extensions' => //An array of extension names with the leading ".",
+    'whitespace' => //Whether to count blanks lines,
+    'comments' => //Whether to count comments,
+);
+
+$folder = new Folder('dir', new Option($options));
+$folder->init();
+
+
+Get number of lines of code, blank lines and comments:
+
+$lines = $folder->getLines();
+$whitespace = $folder->getWhitespace();
+$comments = $folder->getComments();
+
+
+See an example in index.php
+See /protected/template.php on how to use this script from other projects.
